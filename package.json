@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/deniseluri.lwc-l4ofa9a2",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve PDzBVimmJCw1wTIR5KM7 --open"
+  }
+}

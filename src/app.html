@@ -1,0 +1,23 @@
+<template>
+	
+	<div class= "slds-card">
+		<h1 id="Titulo"> Formulário</h1>
+	
+		<div>
+		 <lightning-input type="text" label="Nome" onchange={mudouNome} ></lightning-input>
+		 <lightning-input type="text" label="Sobrenome" onchange={mudouSobrenome}></lightning-input>
+		</div>
+
+		<div>
+		<lightning-button variant="brand" label="converte"  onclick={converte} class="slds-m-left_x-small"></lightning-button>
+		
+		</div>
+		
+		<br></br>		
+		
+		<div>
+		<span id="resultado"> {resultado} </span>
+		</div>
+		
+		</div>
+</template>
